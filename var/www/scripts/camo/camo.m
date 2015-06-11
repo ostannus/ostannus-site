@@ -31,11 +31,6 @@ function fleckMask = getFleckMask(gridSize, layerIndex, layerSettings)
     
     [xq,yq,vq] = griddata(xx,yy,vv,x,y,'nearest');
     
-    sum(vq(:))
-    numel(vq(:))
-    min(vq(:))
-    max(vq(:))
-    
     voronoiMap = imresize(repmat(vq((gridSizeSmall):(2*gridSizeSmall),(gridSizeSmall+1):(2*gridSizeSmall)),[1,1,3]),[gridSize, gridSize]);
     
     lowFrequencyMap = voronoiMap(:,:,1);
