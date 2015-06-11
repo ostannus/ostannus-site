@@ -1,4 +1,5 @@
 
+abc = "one two three"
 
 save /var/www/html/camo/temp.txt abc ;
 
