@@ -157,7 +157,7 @@ fleckImage(fleckMask.tertiary) = fleckMap.tertiary(fleckMask.tertiary);
 % Convert from HSV to RGB space.
 fleckImage = hsv2rgb(fleckImage);
 
-imwrite(fleckImage, '/var/www/html/camo.png');
+imwrite(fleckImage, '/var/www/html/camo/camo.png');
 
 
 
