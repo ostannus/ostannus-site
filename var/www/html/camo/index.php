@@ -6,7 +6,9 @@
         <br>
         <h1>Flecktarn Camouflage Generator</h1>
         <br>
-        <br>Please allow around 10 seconds for page to load properly.
+        <br>
+        Refresh page to re-generate.
+        Please allow around 10 seconds for page to load properly.
         <br>
     </div>
     <div>
@@ -26,7 +28,7 @@
     <div>
         <br>
         <br>
-        <h2>Code (GitHub)</h2>
+        <h2>Code <a href="https://github.com/ostannus/ostannus-site/tree/master/var/www/scripts/camo">(GitHub)</a> </h2>
         <br>
         <script src="https://gist.github.com/ostannus/0cda911eb2105b0dae56.js"></script>
     </div>
